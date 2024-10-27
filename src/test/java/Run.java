@@ -5,5 +5,9 @@ public class Run {
         Car car2 = new Car("MERCEDES",2003,-5000);//Invalid price
         Car car3 = new Car("HOWO",2002, 20000);
         Car car4 = new Car ("Ford");
+        Dog dog = new Dog("canine", "meat", "pudel");
+        dog.DogBreed();
+
     }
 }
+
