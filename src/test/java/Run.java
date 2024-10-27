@@ -7,6 +7,10 @@ public class Run {
         Car car4 = new Car ("Ford");
         Dog dog = new Dog("canine", "meat", "pudel");
         dog.DogBreed();
+        Rectangle rectangle = new Rectangle("Rectangle", 5.0d, 2.1d);
+        rectangle.area();
+        rectangle.area(5.0d, 2.1d);
+        rectangle.area(5.0d);
 
     }
 }
