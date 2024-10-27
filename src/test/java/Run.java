@@ -11,6 +11,10 @@ public class Run {
         rectangle.area();
         rectangle.area(5.0d, 2.1d);
         rectangle.area(5.0d);
+        Employee employee = new Employee("Nino ", 1600.25);
+        employee.displayDetails();
+        Manager manager = new Manager("Mari ", 1000.00 ,  " QA");
+        manager.displayDetails();
 
     }
 }
