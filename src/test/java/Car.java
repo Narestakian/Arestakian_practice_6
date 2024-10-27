@@ -16,4 +16,7 @@ public class Car {
             System.out.println(" Your price is negative.");
         }
     }
+    public Car(String model){
+        this(model, 2000, 0);
+    }
 }
